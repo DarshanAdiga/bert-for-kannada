@@ -25,6 +25,11 @@ def configure_logging():
     rotatingHandler.setLevel(LOG_LEVEL)
     rotatingHandler.setFormatter(formater)
     logging.getLogger().addHandler(rotatingHandler)
+
+    suppress_import_modules = ["torch", "transformers"]
+    for module_name in suppress_import_modules:
+        logging.getLogger(module_name).setLevel(logging.WARNING)
+
     logging.info('Configured the logging successfully')
 
 configure_logging()
