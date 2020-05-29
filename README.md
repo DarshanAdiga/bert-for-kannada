@@ -4,9 +4,11 @@ Easy-to-start code base to make use of BERT for kannada language.
 ## ಕನ್ನಡ ವಾಕ್ಯ ವರ್ಗೀಕರಿಸುವ ತಂತ್ರಾಂಶ (Kannada Sentence Classifier)
 Used the **pretrained multilingual BERT** to generate sentence embeddings and built a sentence classifier.
 
+**Dataset** was taken from [here](https://www.kaggle.com/disisbig/kannada-news-dataset)
+
 ### ನಿಖರತೆಯ ಮಾಪನಗಳು (Accuracy Metrics)
 
-|               |precision    |recall  |f1-score   |support|
+|classes        |precision    |recall  |f1-score   |support|
 |---------------|-------------|--------|-----------|-------|
 |entertainment  |  0.85       |  0.93  |  0.89     |  282  |
 |       sports  |  0.85       |  0.79  |  0.82     |  177  |
@@ -18,5 +20,5 @@ Used the **pretrained multilingual BERT** to generate sentence embeddings and bu
 * Use BERT for other NLP tasks in Kannada
 
 ## References
-https://github.com/huggingface/transformers
-https://github.com/jalammar/jalammar.github.io/blob/master/notebooks/bert/A_Visual_Notebook_to_Using_BERT_for_the_First_Time.ipynb
+* https://github.com/huggingface/transformers
+* https://github.com/jalammar/jalammar.github.io/blob/master/notebooks/bert/A_Visual_Notebook_to_Using_BERT_for_the_First_Time.ipynb
