@@ -1,5 +1,5 @@
 # ಕನ್ನಡದಲ್ಲಿ ಬರ್ಟ್ ನ ಉಪಯೋಗ (BERT for KANNADA)
-Easy-to-start code base to make use of BERT for kannada language.
+Easy-to-start code base to make use of BERT for ಕನ್ನಡ (Kannada Language).
 
 ## ಕನ್ನಡ ವಾಕ್ಯ ವರ್ಗೀಕರಿಸುವ ತಂತ್ರಾಂಶ (Kannada Sentence Classifier)
 Used the **pretrained multilingual BERT** to generate sentence embeddings and built a sentence classifier.
